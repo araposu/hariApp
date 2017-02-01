@@ -1,0 +1,8 @@
+<div class="flex-container login-box" fxLayout="column" fxLayoutAlign="center center">
+  <md-card fxLayout="column" fxLayoutAlign="center center">
+    <h1>Super A2</h1>
+    <md-input [(ngModel)]="user.name" placeholder="name"></md-input>
+    <md-input [(ngModel)]="user.pass" placeholder="pass" type="password"></md-input>
+    <button md-raised-button color="primary" (click)="gotoChat()">Login</button>
+  </md-card>
+</div>
