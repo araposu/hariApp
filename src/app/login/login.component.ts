@@ -17,7 +17,7 @@ export class LoginComponent {
     pass: '0000'
   };
   gotoChat() {
-    this.router.navigate(['/chat']);
+    this.router.navigate(['chat']);
   }
 }
 
